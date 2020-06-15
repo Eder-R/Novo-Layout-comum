@@ -1,7 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 section {
   background-color: blue;
   border: 1px solid black;
   margin: 10px;
+  position: relative;
+
 }
 
 article {
@@ -31,11 +38,12 @@ section h2 {
 
 #s1 h2 {
   background-color: darkmagenta;
+  color: #FFEAB9;
 }
 
 #s2 h2 {
-  background-color: aqua;
-  color: aqua;
+  background-color: darkmagenta;
+  color: #FFEAB9;
 }
 
 #s3 h2 {
